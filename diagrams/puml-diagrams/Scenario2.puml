@@ -1,0 +1,45 @@
+@startuml
+
+
+
+title Λειτουργία δικτύου κατά το Σενάριο 2 (Blackhole Attack)
+
+participant "Node 1\n(Blackhole)" as Node1
+participant "Node 2\n(Client)" as Client
+participant "Node 5\n(Intermediate)" as Node5
+participant "Node 8\n(Server)" as Server
+
+
+
+== Εγκαθίδρυση διαδρομής ==
+
+Client -> Node5 : RREQ
+Client -> Node1 : RREQ
+Node1 -> Client : Fake RREP (δήλωση άμεσης διαδρομής)
+
+note right of Node1
+Γρήγορη απάντηση με ψευδή πληροφορία
+για άμεση διαδρομή προς τον Server.
+end note
+
+
+
+== Αποστολή δεδομένων ==
+
+Client -> Node1 : DATA packet
+Node1 --> X : Drop packet
+
+note right of Node1
+Δεν προωθεί τίποτα,  
+παραμένει σιωπηλός.
+end note
+
+
+
+== Καμία απάντηση από Server ==
+
+...no response received...
+
+
+
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+
+
+
+title Λειτουργία δικτύου κατά το Σενάριο 4 (Blackhole Attack + RREQ Flood)
+
+participant "Node 1\n(Blackhole)" as Node1
+participant "Node 2\n(Client)" as Client
+participant "Node 5\n(Intermediate)" as Node5
+participant "Node 8\n(Server)" as Server
+
+
+
+== Εγκαθίδρυση διαδρομής ==
+
+Client -> Node5 : RREQ
+Client -> Node1 : RREQ
+Node1 -> Client : Fake RREP (ψευδής διαδρομή)
+
+note right of Node1
+Γρήγορη απάντηση με ψευδή πληροφορία
+για άμεση διαδρομή προς τον Server.
+end note
+
+
+
+== Απόρριψη δεδομένων και Πλημμύρα με RREQ μηνύματα  ==
+
+Client -> Node1 : DATA packet
+Node1 --> X : Drop packet
+
+note right of Node1
+Δεν προωθεί τίποτα,  
+παραμένει σιωπηλός.
+end note
+
+
+loop RREQ Flood
+Node1 -> Node5 : RREQ (ψεύτικος προορισμός)
+Node1 -> Client : RREQ (ψεύτικος προορισμός)
+
+note right of Node1
+Στέλνει συνεχώς RREQ για ανύπαρκτους προορισμούς,
+δημιουργώντας συμφόρηση στο δίκτυο και καθυστερήσεις.
+end note
+end loop
+
+
+
+@enduml

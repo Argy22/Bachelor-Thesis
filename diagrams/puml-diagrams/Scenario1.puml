@@ -1,0 +1,38 @@
+@startuml
+
+
+
+title Λειτουργία δικτύου κατά το Σενάριο 1 (Χωρίς Επίθεση)
+
+participant "Node 1\n(Μη Κακόβουλος)" as Node1
+participant "Node 2\n(Client)" as Client
+participant "Node 5\n(Intermediate)" as Node5
+participant "Node 8\n(Server)" as Server
+
+
+
+== Εγκαθίδρυση διαδρομής ==
+
+Client -> Node5 : RREQ
+Client -> Node1 : RREQ
+Node5 -> Server : RREQ
+Server -> Node5 : RREP
+Node5 -> Client : RREP
+
+
+
+== Αποστολή δεδομένων ==
+
+Client -> Node5 : DATA packet
+Node5 -> Server : DATA packet
+
+
+
+== Απάντηση Server ==
+
+Server -> Node5 : DATA reply
+Node5 -> Client : DATA reply
+
+
+
+@enduml

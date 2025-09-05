@@ -1,0 +1,48 @@
+@startuml
+
+
+
+title Λειτουργία δικτύου κατά το Σενάριο 3 (Blackhole Attack + RERR)
+
+participant "Node 1\n(Blackhole)" as Node1
+participant "Node 2\n(Client)" as Client
+participant "Node 5\n(Intermediate)" as Node5
+participant "Node 8\n(Server)" as Server
+
+
+
+== Εγκαθίδρυση διαδρομής ==
+
+
+Client -> Node5 : RREQ
+Client -> Node1 : RREQ
+Node1 -> Client : Fake RREP (δήλωση άμεσης διαδρομής)
+
+note right of Node1
+Γρήγορη απάντηση με ψευδή πληροφορία
+για άμεση διαδρομή προς τον Server.
+end note
+
+
+
+== Απόρριψη δεδομένων και αποστολή μηνύματος RERR ==
+
+
+Client -> Node1 : DATA packet
+Node1 --> X : Drop packet
+note right of Node1
+Δεν προωθεί τίποτα,  
+παραμένει σιωπηλός.
+end note
+
+
+Node1 -> Client : RERR (Route Error)
+
+note right of Node1
+Ενημερώνει για "ανύπαρκτη διαδρομή"
+ώστε να προκαλέσει εκ νέου ανακάλυψη διαδρομής.
+end note
+
+
+
+@enduml
