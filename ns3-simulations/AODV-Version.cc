@@ -599,7 +599,7 @@ int main (int argc, char *argv[])
     positionAllocator->Add(Vector(0.0, 0.0, 0.0));    // Κόμβος 2 (client)
     positionAllocator->Add(Vector(25.0, 30.0, 0.0));  // Κόμβος 3
     positionAllocator->Add(Vector(40.0, 85.0, 0.0));  // Κόμβος 4
-    positionAllocator->Add(Vector(100.0, 0.0, 0.0));  // Κόμβος 5 (ενδιάμεσος)
+    positionAllocator->Add(Vector(100.0, 0.0, 0.0));  // Κόμβος 5 (intermediate)
     positionAllocator->Add(Vector(30.0, 10.0, 0.0));  // Κόμβος 6
     positionAllocator->Add(Vector(70.0, 60.0, 0.0));  // Κόμβος 7
     positionAllocator->Add(Vector(200.0, 0.0, 0.0));  // Κόμβος 8 (server)
