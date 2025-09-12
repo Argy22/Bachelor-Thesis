@@ -1,8 +1,5 @@
 # Καλωσορίσατε! • Welcome! • ¡Bienvenidos!
 
-![status](https://img.shields.io/badge/status-in--progress-yellow)
-
-
 <img src="https://flagcdn.com/w160/gr.png" alt="Greek flag" width="24" height="18"> [Ελληνικά](docs/el/README.el.md)
 <br>
 
