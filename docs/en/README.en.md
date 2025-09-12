@@ -21,7 +21,7 @@ In this repository, you will find the following in each folder:
 
 The ***[user-manual.en.md](user-manual.en.md)*** file contains installation and usage instructions.
 
-The complete **[thesis](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** and its corresponding **[presentation](../../thesis_presentation.pdf)** are available for review.
+The complete **[thesis](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** and its corresponding **[presentation](../../Thesis_Presentation.pdf)** are available for review.
 
 <br> <br>
 

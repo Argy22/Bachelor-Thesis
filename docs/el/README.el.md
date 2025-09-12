@@ -20,7 +20,7 @@
  
 Στο ***[user-manual.el.md](user-manual.el.md)*** βρίσκονται οι οδηγίες εγκατάστασης και χρήσης.
 
-Η πλήρης **[πτυχιακή εργασία](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** και η αντίστοιχη **[παρουσίασή](../../thesis_presentation.pdf)** της είναι διαθέσιμες για μελέτη.
+Η πλήρης **[πτυχιακή εργασία](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** και η αντίστοιχη **[παρουσίασή](../../Thesis_Presentation.pdf)** της είναι διαθέσιμες για μελέτη.
 
 <br> <br>
 

@@ -24,7 +24,7 @@ En este repositorio, encontrará lo siguiente en cada carpeta:
 
 El archivo - **_[user-manual.es.md](user-manual.es.md)_** contiene instrucciones de instalación y uso.
 
-La **[tesis](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** completa y su **[presentación](../../thesis_presentation.pdf)** correspondiente están disponibles para su consulta.
+La **[tesis](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** completa y su **[presentación](../../Thesis_Presentation.pdf)** correspondiente están disponibles para su consulta.
 
 <br> <br>
 
