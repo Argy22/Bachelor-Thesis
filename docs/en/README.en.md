@@ -19,7 +19,9 @@ In this repository, you will find the following in each folder:
 - ***[ns3-simulations](../../ns3-simulations/)*** -> This folder contains the main network code and the script for executing the scenarios.
 - ***[diagrams](../../diagrams/)*** -> All [sequence](/diagrams/puml-diagrams), [energy consumption](/diagrams/energy-consumption-diagrams), and [network metrics](/diagrams/network-metrics-diagrams) diagrams found in the project report. Both the final generated images and the executable files are included.
 
-Finally, the ***[user-manual.en.md](user-manual.en.md)*** file contains installation and usage instructions.
+The ***[user-manual.en.md](user-manual.en.md)*** file contains installation and usage instructions.
+
+The complete **[thesis](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** and its corresponding **[presentation](../../thesis_presentation.pdf)** are available for review.
 
 <br> <br>
 
