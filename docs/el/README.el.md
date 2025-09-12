@@ -18,7 +18,9 @@
 - ***[diagrams](../../diagrams/)*** -> Όλα τα διαγράμματα [ακολουθίας](/diagrams/puml-diagrams), [κατανάλωσης ενέργειας](/diagrams/energy-consumption-diagrams) και [δικτυακών μετρικών](/diagrams/network-metrics-diagrams), που συναντόνται στο έγγραφο της εργασίας. Περιλαμβάνονται τόσο οι τελικές παραγόμενες εικόνες όσο και τα εκτελέσιμα αρχεία.
 
  
-Τέλος, στο ***[user-manual.el.md](user-manual.el.md)*** βρίσκονται οι οδηγίες εγκατάστασης και χρήσης.
+Στο ***[user-manual.el.md](user-manual.el.md)*** βρίσκονται οι οδηγίες εγκατάστασης και χρήσης.
+
+Η πλήρης [πτυχιακή εργασία](../../CS_IoannisArgyropoulos_2025_Thesis.pdf) και η αντίστοιχη [παρουσίασή](../../thesis_presentation.pdf) της είναι διαθέσιμες για μελέτη.
 
 <br> <br>
 
