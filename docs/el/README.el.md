@@ -26,4 +26,4 @@
 
 Μπορείτε να δείτε ένα demo όλων των σεναρίων στο [asciicast](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV): <br>
 
-[![asciicast](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV.svg)](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV)
+[![asciicast](docs/demo.svg)](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV)

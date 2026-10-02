@@ -27,4 +27,4 @@ The complete **[thesis](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** and its 
 
 You can view a demo of all scenarios on [asciicast](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV): <br>
 
-[![asciicast](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV.svg)](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV)
+[![asciicast](docs/demo.svg)](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV)
