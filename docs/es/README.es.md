@@ -30,4 +30,4 @@ La **[tesis](../../CS_IoannisArgyropoulos_2025_Thesis.pdf)** completa y su **[pr
 
 Puede ver una demostración de todos los escenarios en [asciicast](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV): <br>
 
-[![asciicast](docs/demo.svg)](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV)
+[![asciicast](../demo.svg)](https://asciinema.org/a/Dx3fkB8rOoSvbCGM9SPrRhySV)
